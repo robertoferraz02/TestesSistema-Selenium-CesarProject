@@ -116,7 +116,7 @@ public class StepsLogin {
     }
 
     @After
-    public void tearDown() throws InterruptedException {
+    public void tearDown() {
 
        this.driver.quit();
 

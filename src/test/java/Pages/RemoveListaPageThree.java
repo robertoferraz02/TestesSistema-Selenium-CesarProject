@@ -13,7 +13,7 @@ public class RemoveListaPageThree extends MainPage {
         public RemoveListaPageThree remover_item_lista_segundo_click(){
 
         //clica em remover item da lista
-        driver.findElement(By.cssSelector("#item_10360992 > div.wishlist-cell2.customer-wishlist-item-price_cart > div.actions > a.btn-remove")).click();
+        driver.findElement(By.cssSelector("#wishlist-table div.wishlist-cell2.customer-wishlist-item-price_cart > div.actions > a.btn-remove")).click();
 
         return this;
 

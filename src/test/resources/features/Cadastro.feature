@@ -1,4 +1,4 @@
-@CadastroFailure
+@Cadastro
 Feature: Registration on the saraiva.com website
 
   @StepOneCadastro

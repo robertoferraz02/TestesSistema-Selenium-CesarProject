@@ -132,7 +132,7 @@ public class StepsLista {
 
 
     @After
-    public void tearDown() throws InterruptedException {
+    public void tearDown() {
 
         this.driver.quit();
 
