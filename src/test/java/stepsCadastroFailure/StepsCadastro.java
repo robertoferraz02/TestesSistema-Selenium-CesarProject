@@ -25,58 +25,57 @@ public class StepsCadastro {
             this.driver = new ChromeDriver();
     }
 
+    @Given("user access website")
+    public void user_access_website() {
 
-
-    @Given("Usuário acessa o site no navegador")
-    public void usuário_acessa_o_site_no_navegador() {
         driver.get("https://www.saraiva.com.br/");
         driver.manage().window().maximize();
 
     }
 
-    @Then("clica no botão de cadastro")
-    public void clica_no_botão_de_cadastro() {
+    @Then("clicks on register button")
+    public void clicks_on_register_button() {
 
         new CadastroPageOne(driver).cadastro_primeiro_click();
 
     }
 
-    @Then("clica em cadastre-se na segunda página")
-    public void clica_em_cadastre_se_na_segunda_página() {
+    @Then("clck on register in the second page")
+    public void clck_on_register_in_the_second_page() {
 
         new CadastroPageTwo(driver).cadastro_segundo_click();
 
     }
 
-    @Then("preencha seus dados")
-    public void preencha_seus_dados() {
+    @Then("inform data")
+    public void inform_data() {
 
         new CadastroPageThree(driver).cadastro_preencher_dados();
 
     }
 
-    @And("marque a opção de não receber newsletter")
-    public void marque_a_opção_de_não_receber_newsletter() {
+    @And("check option to not receive newsletter")
+    public void check_option_to_not_receive_newsletter() {
 
         new CadastroPageThree(driver).cadastro_desmarcar_newsletter();
 
-    }
-
-    @But("não clique na validação de captcha")
-    public void não_clique_na_validação_de_captcha() {
 
     }
 
+    @But("do not click on capctha validation")
+    public void do_not_click_on_capctha_validation() {
 
-    @And("finalize o processo de cadastro")
-    public void finalize_o_processo_de_cadastro() {
+    }
+
+    @And("ends registration process")
+    public void ends_registration_process() {
 
         new CadastroPageThree(driver).finalizar_cadastro_click();
 
     }
 
-    @Then("valide que o cadastro não foi concluído")
-    public void valide_que_o_cadastro_não_foi_concluído() {
+    @Then("validates the registration wasn't well succeeded")
+    public void validates_the_registration_wasn_t_well_succeeded() {
 
         new CadastroPageThree(driver).validar_cadastro_incompleto();
 
@@ -84,11 +83,12 @@ public class StepsCadastro {
 
     }
 
+
+
     @After
     public void tearDown() throws InterruptedException {
 
-        Thread.sleep(5000);
-        this.driver.quit();
+      this.driver.quit();
 
     }
 

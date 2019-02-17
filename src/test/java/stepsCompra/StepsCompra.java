@@ -134,7 +134,7 @@ public class StepsCompra {
     @Then("chooses to pick product on the store")
     public void chooses_to_pick_product_on_the_store() {
 
-        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
         new CheckoutPageThree(driver).checkout_selecionar_retirada_click();
 
     }
@@ -142,7 +142,7 @@ public class StepsCompra {
     @And("choose state")
     public void choose_state() {
 
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         new CheckoutPageThree(driver).checkout_selecionar_estado_click();
 
     }
@@ -151,7 +151,7 @@ public class StepsCompra {
     @And("choose selected store")
     public void choose_selected_store() {
 
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         new CheckoutPageThree(driver).checkout_selecionar_loja_click();
 
     }
@@ -160,7 +160,7 @@ public class StepsCompra {
     @Then("proceed process clicking to continue")
     public void proceed_process_clicking_to_continue() {
 
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 
         new CheckoutPageThree(driver).checkout_continuar_processo_click();
 
@@ -169,7 +169,7 @@ public class StepsCompra {
     @Then("inform checkout data")
     public void inform_checkout_data() {
 
-        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
         new CheckoutPageFour(driver).checkout_informa_dados();
 
     }
@@ -204,7 +204,6 @@ public class StepsCompra {
     @After
     public void tearDown() throws InterruptedException {
 
-        Thread.sleep(5000);
         this.driver.quit();
 
     }

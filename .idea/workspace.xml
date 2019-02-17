@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e177a35-b0db-4726-8960-dce9530334bc" name="Default" comment="" />
+    <list default="true" id="1e177a35-b0db-4726-8960-dce9530334bc" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/CheckoutPageFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/CheckoutPageFour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/CheckoutPageThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/CheckoutPageThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepsCadastroFailure/StepsCadastro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepsCadastroFailure/StepsCadastro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepsCompra/StepsCompra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepsCompra/StepsCompra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepsLista/StepsAdicionarItensLista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepsLista/StepsAdicionarItensLista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepsLogin/StepsLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepsLogin/StepsLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/CadastroFailure.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/CadastroFailure.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +35,8 @@
       <file leaf-file-name="Runner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+            <state relative-caret-position="170">
+              <caret line="10" column="94" selection-start-line="10" selection-start-column="94" selection-end-line="10" selection-end-column="94" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StepsCompra.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/stepsCompra/StepsCompra.java">
+      <file leaf-file-name="StepsLogin.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/stepsLogin/StepsLogin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="164" column="37" selection-start-line="164" selection-start-column="37" selection-end-line="164" selection-end-column="37" />
+            <state relative-caret-position="204">
+              <caret line="66" column="51" lean-forward="true" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CheckoutPageThree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Pages/CheckoutPageThree.java">
+      <file leaf-file-name="LoginPageThree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Pages/LoginPageThree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+            <state relative-caret-position="204">
+              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CheckoutPageFour.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Pages/CheckoutPageFour.java">
+      <file leaf-file-name="LoginInvalidPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Pages/LoginInvalidPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="35" column="65" lean-forward="true" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
+            <state relative-caret-position="238">
+              <caret line="28" column="91" lean-forward="true" selection-start-line="28" selection-start-column="91" selection-end-line="28" selection-end-column="91" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,11 +80,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Compra.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/Compra.feature">
+      <file leaf-file-name="LoginPageTwo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Pages/LoginPageTwo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+            <state relative-caret-position="136">
+              <caret line="17" column="74" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="74" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Login.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/Login.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -94,7 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/resources/features/test.feature.txt" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/MainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/Cadastro.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/test.feature" />
@@ -107,11 +128,9 @@
         <option value="$PROJECT_DIR$/src/test/java/Pages/CadastroPageFour.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/Cadastro.feature" />
         <option value="$PROJECT_DIR$/src/test/java/stepDefinitions/Steps.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/CadastroFailure.feature" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/LoginPageOne.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepsLista/StepsLista.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepsLista/StepsRemoverItensLista.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Pages/CadastroPageThree.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/ListaPageTwo.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/ListaPageOne.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/ListaPageSeven.java" />
@@ -127,24 +146,27 @@
         <option value="$PROJECT_DIR$/src/test/java/Pages/RemoveListaPageOne.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/RemoveListaPageThree.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/ValidateListaPageThree.java" />
-        <option value="$PROJECT_DIR$/src/test/java/stepsLista/StepsAdicionarItensLista.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/LoginPageTwo.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/LoginPageThree.java" />
-        <option value="$PROJECT_DIR$/src/test/java/stepsLogin/StepsLogin.java" />
-        <option value="$PROJECT_DIR$/src/test/java/stepsCadastroFailure/StepsCadastro.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/CompraPageOne.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/CompraPageTwo.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/CompraPageFour.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/CompraPageThree.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/RemoveCompraPageOne.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/Compra.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/Runner.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/ChekoutPageOne.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Pages/CheckoutPageFour.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/CheckoutPageTwo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Pages/CheckoutPageFour.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/CheckoutPageThree.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/CadastroFailure.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/Pages/CadastroPageThree.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepsCadastroFailure/StepsCadastro.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepsCompra/StepsCompra.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepsLista/StepsAdicionarItensLista.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/Compra.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/Pages/LoginInvalidPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepsLogin/StepsLogin.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/Runner.java" />
       </list>
     </option>
   </component>
@@ -207,6 +229,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stepsCadastroFailure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectSystemTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectSystemTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="stepsCompra" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -216,6 +246,14 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="stepsLista" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projectSystemTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectSystemTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="stepsLogin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="projectSystemTest" type="b2602c69:ProjectViewProjectNode" />
@@ -355,34 +393,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Runner - 2019.02.15 at 00h 08m 44s.xml">
+    <history-entry file="Runner - 2019.02.17 at 12h 59m 51s.xml">
       <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner - 2019.02.15 at 00h 16m 59s.xml">
+    <history-entry file="Runner - 2019.02.17 at 13h 02m 40s.xml">
       <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner - 2019.02.15 at 00h 20m 04s.xml">
+    <history-entry file="Runner - 2019.02.17 at 13h 11m 39s.xml">
       <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner - 2019.02.15 at 00h 22m 32s.xml">
+    <history-entry file="Runner - 2019.02.17 at 13h 15m 28s.xml">
       <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner - 2019.02.15 at 00h 24m 23s.xml">
+    <history-entry file="Runner - 2019.02.17 at 13h 17m 25s.xml">
       <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner - 2019.02.15 at 00h 26m 42s.xml">
+    <history-entry file="Runner - 2019.02.17 at 14h 01m 06s.xml">
       <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner - 2019.02.15 at 00h 38m 53s.xml">
+    <history-entry file="Runner - 2019.02.17 at 14h 06m 12s.xml">
       <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner - 2019.02.15 at 00h 42m 34s.xml">
+    <history-entry file="Runner - 2019.02.17 at 14h 18m 20s.xml">
       <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner - 2019.02.15 at 00h 46m 18s.xml">
+    <history-entry file="Runner - 2019.02.17 at 14h 20m 10s.xml">
       <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner - 2019.02.15 at 00h 48m 37s.xml">
+    <history-entry file="Runner - 2019.02.17 at 14h 22m 36s.xml">
       <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -396,7 +434,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -408,11 +446,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5012854" side_tool="true" weight="0.30167598" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49871466" visible="true" weight="0.328125" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49871466" visible="true" weight="0.41061452" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16684435" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20115681" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3282123" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -460,20 +498,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/CadastroPageThree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="89" selection-start-line="25" selection-start-column="89" selection-end-line="25" selection-end-column="89" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Pages/CadastroPageFour.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -524,13 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/CadastroFailure.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stepsLogin/Steps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -575,13 +596,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -692,60 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Login.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/LoginPageTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/LoginPageThree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepsLogin/StepsLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="58" column="72" selection-start-line="58" selection-start-column="72" selection-end-line="58" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepsCadastroFailure/StepsCadastro.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Lista.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Pages/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -780,16 +740,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepsLista/StepsAdicionarItensLista.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="95" column="5" lean-forward="true" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -866,37 +816,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/CadastroPageThree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="41" column="8" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="43" selection-end-column="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Compra.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Pages/CheckoutPageFour.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="35" column="65" lean-forward="true" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
+        <state relative-caret-position="340">
+          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -905,8 +828,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Pages/CheckoutPageThree.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/CadastroFailure.feature">
+      <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+          <caret selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepsCadastroFailure/StepsCadastro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="90" column="6" selection-start-line="90" selection-start-column="6" selection-end-line="90" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -915,8 +855,106 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/stepsCompra/StepsCompra.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="206" column="8" selection-start-line="206" selection-start-column="8" selection-end-line="206" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Compra.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Lista.feature">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="164" column="37" selection-start-line="164" selection-start-column="37" selection-end-line="164" selection-end-column="37" />
+          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/CadastroPageThree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="25" column="74" selection-start-line="25" selection-start-column="74" selection-end-line="25" selection-end-column="110" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/LoginPageTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="74" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepsLista/StepsAdicionarItensLista.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="101" column="4" lean-forward="true" selection-start-line="101" selection-start-column="4" selection-end-line="101" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/LoginInvalidPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="28" column="91" lean-forward="true" selection-start-line="28" selection-start-column="91" selection-end-line="28" selection-end-column="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="94" selection-start-line="10" selection-start-column="94" selection-end-line="10" selection-end-column="94" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Pages/LoginPageThree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepsLogin/StepsLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="66" column="51" lean-forward="true" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

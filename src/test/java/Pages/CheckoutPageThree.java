@@ -18,7 +18,7 @@ public class CheckoutPageThree extends MainPage {
 
     public CheckoutPageThree checkout_selecionar_retirada_click(){
 
-        WebElement selectRetirada = (new WebDriverWait(driver, 20))
+        WebElement selectRetirada = (new WebDriverWait(driver, 40))
                 .until(ExpectedConditions.elementToBeClickable(By.cssSelector("#deliveryInStore")));
         driver.findElement(By.cssSelector("#deliveryInStore")).click();
 
@@ -45,9 +45,9 @@ public class CheckoutPageThree extends MainPage {
 
     public CheckoutPageFour checkout_continuar_processo_click () {
 
-        WebElement selectWaitBtn = (new WebDriverWait(driver, 20))
-                .until(ExpectedConditions.elementToBeClickable(By.cssSelector("#shipping-please-wait")));
-        driver.findElement(By.cssSelector("#shipping-please-wait")).click();
+        WebElement selectWaitBtn = (new WebDriverWait(driver, 40))
+                .until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("#checkout_onepage > ul+section+section .co_bt_continue")));
+        driver.findElement(By.cssSelector("#checkout_onepage > ul+section+section .co_bt_continue")).click();
 
         return new CheckoutPageFour(driver);
 

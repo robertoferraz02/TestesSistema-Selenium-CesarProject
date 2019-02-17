@@ -131,16 +131,9 @@ public class StepsAdicionarItensLista {
     }
 
 
-
-
-
-
-
-
     @After
     public void tearDown() throws InterruptedException {
 
-        Thread.sleep(5000);
         this.driver.quit();
 
     }

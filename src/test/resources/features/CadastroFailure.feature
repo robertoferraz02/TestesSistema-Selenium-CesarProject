@@ -1,14 +1,14 @@
 @CadastroFailure
-Feature: Cadastro no site Saraiva.com
+Feature: Registration on the saraiva.com website
 
   @StepOneCadastro
-  Scenario: Usuário realiza cadastro no site
+  Scenario: User tries to register on website and doesn't check captcha
 
-    Given Usuário acessa o site no navegador
-    Then  clica no botão de cadastro
-    Then clica em cadastre-se na segunda página
-    And preencha seus dados
-    And marque a opção de não receber newsletter
-    But não clique na validação de captcha
-    And finalize o processo de cadastro
-    Then valide que o cadastro não foi concluído
+    Given user access website
+    Then  clicks on register button
+    Then clck on register in the second page
+    And inform data
+    And check option to not receive newsletter
+    But do not click on capctha validation
+    And ends registration process
+    Then validates the registration wasn't well succeeded

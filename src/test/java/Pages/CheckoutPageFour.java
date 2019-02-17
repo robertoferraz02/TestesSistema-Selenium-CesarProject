@@ -3,7 +3,9 @@ package Pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class CheckoutPageFour extends MainPage {
 
@@ -15,10 +17,20 @@ public class CheckoutPageFour extends MainPage {
     public CheckoutPageFour checkout_informa_dados(){
 
         //numero cartão
+
+        WebElement selectCardNumber = (new WebDriverWait(driver, 20))
+                .until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("#cc_number_new")));
         driver.findElement(By.cssSelector("#cc_number_new")).sendKeys("5546562531088077");
 
+       // driver.findElement(By.cssSelector("#cc_number_new")).sendKeys("5546562531088077");
+
         //código de segurança
+
+        WebElement selectCardCodeNumber = (new WebDriverWait(driver, 20))
+                .until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("#cc_cvv_new")));
         driver.findElement(By.cssSelector("#cc_cvv_new")).sendKeys("951");
+
+       // driver.findElement(By.cssSelector("#cc_cvv_new")).sendKeys("951");
 
         //mês
         WebElement selectMonth = driver.findElement(By.cssSelector("#cc_validity_new > select.month"));
