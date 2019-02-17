@@ -1,7 +1,7 @@
 @Login
 Feature: Login
 
-  @Logar
+  @LoginWithValidData
   Scenario: User logs into website
 
     Given user accesses the site
@@ -10,7 +10,7 @@ Feature: Login
     And click to continue
     Then validates if login was made
 
-    @LogarDadosInvalidos
+    @LoginWithInvalidData
     Scenario: User tries to login with invalid data
 
       Given user opens the site

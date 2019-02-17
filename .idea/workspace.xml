@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e177a35-b0db-4726-8960-dce9530334bc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/RemoveListaPageThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/RemoveListaPageThree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepsCadastroFailure/StepsCadastro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepsCadastroFailure/StepsCadastro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepsCompra/StepsCompra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepsCompra/StepsCompra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepsLista/StepsLista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepsLista/StepsLista.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepsLogin/StepsLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepsLogin/StepsLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/CadastroFailure.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepsCadastroFailure/StepsCadastro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepsCadastroFailure/StepsCadastro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepsCompra/StepsCompra.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepsCompra/StepsCompra.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepsLista/StepsAdicionarItensLista.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepsLogin/StepsLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepsLogin/StepsLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/Runner.class" afterDir="false" />
-    </list>
+    <list default="true" id="1e177a35-b0db-4726-8960-dce9530334bc" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,28 +22,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Runner.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/Runner.java">
+      <file leaf-file-name="Lista.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/Lista.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="94" selection-start-line="10" selection-start-column="94" selection-end-line="10" selection-end-column="94" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-79">
+              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Compra.feature" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Login.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/Login.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Compra.feature" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/Compra.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
+            <state relative-caret-position="278">
               <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cadastro.feature" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Cadastro.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/Cadastro.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -129,8 +122,8 @@
         <option value="$PROJECT_DIR$/src/test/java/stepsCadastroFailure/StepsCadastro.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepsLogin/StepsLogin.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/RemoveListaPageThree.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tests/Runner.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/Cadastro.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/Runner.java" />
       </list>
     </option>
   </component>
@@ -185,15 +178,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projectSystemTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projectSystemTest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="stepsCompra" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="projectSystemTest" type="b2602c69:ProjectViewProjectNode" />
@@ -758,13 +743,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Pages/LoginPageTwo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -772,13 +750,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Login.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -832,13 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Lista.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Pages/RemoveListaPageTwo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -866,27 +830,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Cadastro.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="94" selection-start-line="10" selection-start-column="94" selection-end-line="10" selection-end-column="94" />
+        <state relative-caret-position="119">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Compra.feature">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+        <state relative-caret-position="17">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Cadastro.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Lista.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+        <state relative-caret-position="-79">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Compra.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
         </state>
       </provider>
     </entry>

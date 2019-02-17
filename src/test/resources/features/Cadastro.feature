@@ -1,7 +1,7 @@
-@Cadastro
+@Registration
 Feature: Registration on the saraiva.com website
 
-  @StepOneCadastro
+  @StepOneRegistration
   Scenario: User tries to register on website and doesn't check captcha
 
     Given user access website

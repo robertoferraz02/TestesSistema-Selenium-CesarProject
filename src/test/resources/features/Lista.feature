@@ -1,8 +1,8 @@
-@Lista
+@WishList
 Feature: Wishlist
 
 
-  @Cria_Lista
+  @CreatingWishList
   Scenario: user creates wishlist
 
     Given user searches for any item
@@ -11,14 +11,14 @@ Feature: Wishlist
     And login on the website
     Then validates if login was successful
 
-  @Valida_Lista
+  @ValidatingWishList
   Scenario: user validate wishlist
 
     Given user clicks on whishlist
     Then makes login
     And validates if the item appears on the wishlist
 
-  @Remove_Lista
+  @RemovingItem_WishList
   Scenario: User removes itens for the wishlist
 
     Given user clicks on wishlist button in the menu
