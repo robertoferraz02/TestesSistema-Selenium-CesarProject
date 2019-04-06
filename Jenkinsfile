@@ -10,7 +10,6 @@ node {
         echo "Running ${env.JOB_NAME} (${env.BUILD_ID}) at ${env.JENKINS_URL}"
         deleteDir()
         checkout scm
-        sh 'cat README.md'
         sh 'printenv'
 
         def ambiente = input id: 'test', message: 'Please Provide Parameters', ok: 'Next',
