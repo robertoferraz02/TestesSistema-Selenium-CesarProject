@@ -1,7 +1,6 @@
 package Pages;
 
 import org.openqa.selenium.WebDriver;
-import sun.applet.Main;
 
 public class MainPage {
 
